@@ -1,0 +1,7 @@
+Se presenta la siguiente situación en una universidad:
+Los profesores existentes dictan más de un curso. Algunos de ellos acaban de llegar a la universidad y todavía no se les ha asignado uno. Los alumnos, para conservar su calidad de alumno regular, deben estar cursando al menos un curso.
+En el sistema se deben almacenar, tanto para profesores como alumnos: RUT, nombre y edad.
+Para los profesores es importante saber qué profesión poseen.
+De los alumnos se desea saber a qué carrera pertenecen.
+Los cursos poseen un ID y su nombre.
+

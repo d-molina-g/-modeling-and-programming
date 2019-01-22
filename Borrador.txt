@@ -1,0 +1,94 @@
+archivo="C:\\Users\\Davi\\workspace\\tareaone\\src\\tareaone\\cursos.dat";
+			
+			//BufferedReader br = new BufferedReader( new FileReader( "C:\\Users\\Davi\\workspace\\tareaone\\src\\tareaone\\cursos.dat" ) );
+			//String linea ;
+			//int j = 0;
+			//String [] arrayx = new String[5];
+			while( (linea = br.readLine())!= null )
+			{
+				//Creo un objeto tipo alumno:
+				//Profesor profesor = new Profesor();
+				//StringTokenizer token = new StringTokenizer( linea , "\t");
+				//Divido la linea en tokens, hasta que se termine la linea
+				while( token.hasMoreTokens() )
+				{
+					array[i] = (String)token.nextToken();
+					i++;
+				}
+				//Restauro para la próxima entrada
+				i = 0;
+			
+				//doy los valores al objeto creado		
+			profesor.getCurso().setID(array[0]);
+			profesor.getCurso().setNombre(array[1]);
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+			//Añadir Curso
+			/*
+			ArrayList <Curso> lista_curso = new ArrayList<Curso>();
+			cargar_curso( lista_curso , "C:\\Users\\Davi\\workspace\\tareaone\\src\\tareaone\\cursos.dat");
+			System.out.println("----------------------------------------------");
+			System.out.println("Tamaño de arraylist: "+lista_curso.size() );
+			System.out.println("----------------------------------------------");
+			System.out.println("Mostrando la listad de profesores...");
+			System.out.println("----------------------------------------------");
+			mostrar_lista_curso( lista_curso );
+			System.out.println("----------------------------------------------");
+			
+			*/
+			
+			
+			
+			
+			
+			
+			
+	}
+	
+	//CARGAR CURSOS A PROFESOR
+	/*
+
+	static void cargar_curso( ArrayList < Profesor > array_list , String archivo ) throws IOException
+	{
+		BufferedReader br = new BufferedReader( new FileReader( archivo ) );
+		String linea ;
+		int i = 0;
+		//Solo serán dos argumentos
+		String [] array = new String[2];
+		while( (linea = br.readLine())!= null )
+		{
+			//Creo un objeto tipo Profesor para asignarle el curso:
+			Profesor profesor = new Profesor ();
+			StringTokenizer token = new StringTokenizer( linea , "\t");
+			//Divido la linea en tokens, hasta que se termine la linea
+			while( token.hasMoreTokens() )
+			{
+				array[i] = (String)token.nextToken();
+				i++;
+			}
+			//Restauro para la próxima entrada
+			i = 0;
+			//doy los valores al objeto creado
+			profesor.getCurso().setID( array[0] );
+			profesor.getCurso().setNombre( array[1] );
+			
+			
+			//inserto el objeto a mi arraylist
+			array_list.add( profesor );
+		}
+	}
+	
+	
+	*/
+	
